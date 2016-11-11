@@ -6,3 +6,6 @@ XBee Confiquration - Api mode
 CH:C PANID:14 DH:O DL:FFFF MY:1 CE:Coordinator (COORDINATOR)
 CH:C PANID:14 DH:O DL:1 MY:2 CE:Coordinator (END)
 
+Rpi out voltage:3v
+Arduino out voltage:5v
+Xbee in out voltage 3V
