@@ -2,8 +2,6 @@
 
 SoftwareSerial XBee(2, 3); // RX, TX
 
-byte msg[] = {,0x00,0x0A,0x01,0x01,0xFF,0xFF,,0x00,        //API command byte, from the mega to Xbee1 then transmitted to xbee2, I S (49,53) equals forced sample
-                0x40,0x81,0x82,0x0D,0xFF,0xFE,0x02,0x49,0x53,0xF5};
 void setup() {
    XBee.begin(9600);
   Serial.begin(9600);
