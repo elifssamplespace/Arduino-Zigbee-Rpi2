@@ -22,8 +22,8 @@ if (Serial.available()){ //  send
     XBee.write(0x0A);
     XBee.write(0x01);
     XBee.write(0x01);
-    XBee.write(0x7F);
-    XBee.write(0x7F);
+    XBee.write(0x00);
+    XBee.write(0x01);
     XBee.write(0x00);
     XBee.write(0x31);
     XBee.write(0x30);
